@@ -1,0 +1,3115 @@
+Started GET "/" for 127.0.0.1 at 2019-11-20 09:27:28 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/learn/.rvm/gems/ruby-2.6.1/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/learn/.rvm/gems/ruby-2.6.1/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (9.1ms)
+Completed 200 OK in 79ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 09:32:34 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/learn/.rvm/gems/ruby-2.6.1/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/learn/.rvm/gems/ruby-2.6.1/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (7.6ms)
+Completed 200 OK in 40ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at 2019-11-20 09:32:43 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/index" for 127.0.0.1 at 2019-11-20 09:32:55 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-11-20 09:33:20 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1879ms (Views: 1878.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-11-20 09:35:44 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-11-20 09:35:46 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 119ms (Views: 118.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 09:35:59 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 09:43:04 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 566ms (Views: 544.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 09:45:37 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (10.6ms)
+Completed 200 OK in 68ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (27.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (7.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to CreateDocs (20191120174839)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "docs" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20191120174839_create_docs.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (2.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191120174839"]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (9.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (1.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-20 17:49:35.077534"], ["updated_at", "2019-11-20 17:49:35.077534"]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+Started GET "/" for 127.0.0.1 at 2019-11-20 10:16:17 -0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (9.8ms)
+Completed 200 OK in 805ms (Views: 784.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 10:17:29 -0800
+Processing by DocsController#new as HTML
+Completed 406 Not Acceptable in 65ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (DocsController#new is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.3) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.3) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 10:19:55 -0800
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/new.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 10:32:27 -0800
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (7.9ms)
+  Rendered docs/new.html.haml within layouts/application (20.0ms)
+Completed 500 Internal Server Error in 96ms (ActiveRecord: 0.8ms)
+
+
+  
+SyntaxError (/home/learn/cabinet/app/views/docs/_form.html.haml:2: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/home/learn/cabinet/app/views/docs/_form.html.haml:5: syntax error, unexpected ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/home/learn/cabinet/app/views/docs/_form.html.haml:5: syntax error, unexpected end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/home/learn/cabinet/app/views/docs/_form.html.haml:8: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/docs/_form.html.haml:2: syntax error, unexpected ')'
+app/views/docs/_form.html.haml:5: syntax error, unexpected ensure, expecting ')'
+app/views/docs/_form.html.haml:5: syntax error, unexpected end, expecting ')'
+app/views/docs/_form.html.haml:8: syntax error, unexpected end, expecting ')'
+app/views/docs/new.html.haml:2:in `_app_views_docs_new_html_haml___349100267__644567008'
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 10:33:14 -0800
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (2.7ms)
+  Rendered docs/new.html.haml within layouts/application (12.6ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/learn/cabinet/app/views/docs/_form.html.haml:2: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/home/learn/cabinet/app/views/docs/_form.html.haml:5: syntax error, unexpected ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/home/learn/cabinet/app/views/docs/_form.html.haml:5: syntax error, unexpected end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/home/learn/cabinet/app/views/docs/_form.html.haml:8: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/docs/_form.html.haml:2: syntax error, unexpected ')'
+app/views/docs/_form.html.haml:5: syntax error, unexpected ensure, expecting ')'
+app/views/docs/_form.html.haml:5: syntax error, unexpected end, expecting ')'
+app/views/docs/_form.html.haml:8: syntax error, unexpected end, expecting ')'
+app/views/docs/new.html.haml:2:in `_app_views_docs_new_html_haml___349100267__641835948'
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 10:36:33 -0800
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (35.3ms)
+  Rendered docs/new.html.haml within layouts/application (39.5ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/learn/cabinet/app/views/docs/_form.html.haml:2: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/home/learn/cabinet/app/views/docs/_form.html.haml:5: syntax error, unexpected ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/home/learn/cabinet/app/views/docs/_form.html.haml:5: syntax error, unexpected end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/home/learn/cabinet/app/views/docs/_form.html.haml:8: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/docs/_form.html.haml:2: syntax error, unexpected ')'
+app/views/docs/_form.html.haml:5: syntax error, unexpected ensure, expecting ')'
+app/views/docs/_form.html.haml:5: syntax error, unexpected end, expecting ')'
+app/views/docs/_form.html.haml:8: syntax error, unexpected end, expecting ')'
+app/views/docs/new.html.haml:2:in `_app_views_docs_new_html_haml___349100267__645266648'
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 10:39:45 -0800
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (7.1ms)
+  Rendered docs/new.html.haml within layouts/application (17.9ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 5.0ms)
+
+
+  
+SyntaxError (/home/learn/cabinet/app/views/docs/_form.html.haml:2: syntax error, unexpected ')'
+)).to_s);).to_s);; _hamlout.bu...
+^
+/home/learn/cabinet/app/views/docs/_form.html.haml:5: syntax error, unexpected ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/home/learn/cabinet/app/views/docs/_form.html.haml:5: syntax error, unexpected end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/home/learn/cabinet/app/views/docs/_form.html.haml:8: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/docs/_form.html.haml:2: syntax error, unexpected ')'
+app/views/docs/_form.html.haml:5: syntax error, unexpected ensure, expecting ')'
+app/views/docs/_form.html.haml:5: syntax error, unexpected end, expecting ')'
+app/views/docs/_form.html.haml:8: syntax error, unexpected end, expecting ')'
+app/views/docs/new.html.haml:2:in `_app_views_docs_new_html_haml___349100267__645461048'
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 10:40:05 -0800
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (263.7ms)
+  Rendered docs/new.html.haml within layouts/application (268.8ms)
+Completed 200 OK in 887ms (Views: 886.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 10:58:12 -0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ArgumentError (wrong number of arguments (given 4, expected 1..2)):
+  
+app/controllers/docs_controller.rb:2:in `[]'
+app/controllers/docs_controller.rb:2:in `<class:DocsController>'
+app/controllers/docs_controller.rb:1:in `<main>'
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 10:59:00 -0800
+  
+ArgumentError (wrong number of arguments (given 4, expected 1..2)):
+  
+app/controllers/docs_controller.rb:2:in `[]'
+app/controllers/docs_controller.rb:2:in `<class:DocsController>'
+app/controllers/docs_controller.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2019-11-20 10:59:04 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (6.1ms)
+Completed 200 OK in 523ms (Views: 521.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 10:59:21 -0800
+  
+ArgumentError (wrong number of arguments (given 4, expected 1..2)):
+  
+app/controllers/docs_controller.rb:2:in `[]'
+app/controllers/docs_controller.rb:2:in `<class:DocsController>'
+app/controllers/docs_controller.rb:1:in `<main>'
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 11:06:08 -0800
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ArgumentError (wrong number of arguments (given 4, expected 1..2)):
+  
+app/controllers/docs_controller.rb:2:in `[]'
+app/controllers/docs_controller.rb:2:in `<class:DocsController>'
+app/controllers/docs_controller.rb:1:in `<main>'
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 11:07:10 -0800
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  Rendered docs/index.html.haml within layouts/application (14.6ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: = @docs.each do |doc|
+    2:   %h2= link_to doc.title, doc
+    3:   %p= time_ago_in_words(doc.created_at)
+    4:   %p= truncate(doc.content, length:50)
+  
+app/views/docs/index.html.haml:1:in `_app_views_docs_index_html_haml___596247931__645329468'
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 11:09:14 -0800
+Processing by DocsController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `all' for File:Class):
+  
+app/controllers/docs_controller.rb:5:in `index'
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 11:09:59 -0800
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (11.5ms)
+Completed 200 OK in 526ms (Views: 520.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 11:12:05 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 73ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 11:15:41 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (8.1ms)
+Completed 200 OK in 71ms (Views: 67.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 11:19:29 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (6.7ms)
+Completed 200 OK in 134ms (Views: 128.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 11:23:44 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 66ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 11:27:27 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 11:27:58 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 11:27:59 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (6.0ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 11:28:14 -0800
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (12.6ms)
+Completed 200 OK in 635ms (Views: 611.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2019-11-20 11:28:29 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 11:28:47 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (16.8ms)
+Completed 200 OK in 124ms (Views: 115.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 11:29:12 -0800
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (45.2ms)
+  Rendered docs/new.html.haml within layouts/application (58.2ms)
+Completed 200 OK in 137ms (Views: 118.5ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/docs" for 127.0.0.1 at 2019-11-20 11:29:28 -0800
+Processing by DocsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GRtp8wxSOUvwUWUJqCAj+Q3Hdwn7iiafGpXeqgwU2ubYsVY8b3hIOglSPF6VWqRneoQyVZsesQ1sQNdOQksi5w==", "doc"=>{"title"=>"hello", "content"=>"hi how are ya"}, "commit"=>"Create Doc"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:19
+  [1m[36mDoc Create (2.0ms)[0m  [1m[32mINSERT INTO "docs" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "hello"], ["content", "hi how are ya"], ["created_at", "2019-11-20 19:29:28.937240"], ["updated_at", "2019-11-20 19:29:28.937240"]]
+  ↳ app/controllers/docs_controller.rb:19
+  [1m[35m (15.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:19
+Redirected to http://localhost:3000/docs/1
+Completed 302 Found in 23ms (ActiveRecord: 17.3ms)
+
+
+Started GET "/docs/1" for 127.0.0.1 at 2019-11-20 11:29:29 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (5.7ms)
+Completed 200 OK in 87ms (Views: 68.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 11:29:32 -0800
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (10.4ms)
+Completed 200 OK in 64ms (Views: 62.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 11:29:42 -0800
+Processing by DocsController#new as HTML
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (21.7ms)
+  Rendered docs/new.html.haml within layouts/application (26.5ms)
+Completed 200 OK in 84ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/docs" for 127.0.0.1 at 2019-11-20 11:29:54 -0800
+Processing by DocsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ccWm/GDAmUx5CBLbk15t0uKJJhn3WQ6hY+bwZQpZZV7MnqVrZn9rnUnUM2CdAFdWbUXRFIJIhpjmkLf0iSOylQ==", "doc"=>{"title"=>"sharon", "content"=>"this is me\r\n"}, "commit"=>"Create Doc"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:19
+  [1m[36mDoc Create (1.0ms)[0m  [1m[32mINSERT INTO "docs" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "sharon"], ["content", "this is me\r\n"], ["created_at", "2019-11-20 19:29:54.323084"], ["updated_at", "2019-11-20 19:29:54.323084"]]
+  ↳ app/controllers/docs_controller.rb:19
+  [1m[35m (13.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:19
+Redirected to http://localhost:3000/docs/2
+Completed 302 Found in 21ms (ActiveRecord: 14.6ms)
+
+
+Started GET "/docs/2" for 127.0.0.1 at 2019-11-20 11:29:54 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (8.1ms)
+Completed 200 OK in 71ms (Views: 68.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/docs/2/edit" for 127.0.0.1 at 2019-11-20 11:29:56 -0800
+Processing by DocsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/_form.html.haml (22.8ms)
+  Rendered docs/edit.html.haml within layouts/application (30.5ms)
+Completed 200 OK in 99ms (Views: 97.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/docs/2" for 127.0.0.1 at 2019-11-20 11:29:59 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (4.7ms)
+Completed 200 OK in 62ms (Views: 60.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 11:30:03 -0800
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.4ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (13.9ms)
+Completed 200 OK in 68ms (Views: 66.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 11:31:59 -0800
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.3ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (10.3ms)
+Completed 200 OK in 70ms (Views: 68.9ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to DeviseCreateUsers (20191120193856)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20191120193856_devise_create_users.rb:5
+  [1m[35m (4.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20191120193856_devise_create_users.rb:5
+  [1m[35m (256.6ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  ↳ db/migrate/20191120193856_devise_create_users.rb:39
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  ↳ db/migrate/20191120193856_devise_create_users.rb:40
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191120193856"]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (26.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 11:40:33 -0800
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.3ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (48.3ms)
+Completed 200 OK in 785ms (Views: 758.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/docs/1" for 127.0.0.1 at 2019-11-20 11:40:39 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDoc Load (0.3ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (18.2ms)
+Completed 200 OK in 149ms (Views: 135.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 11:40:43 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (6.2ms)
+Completed 200 OK in 67ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-20 11:41:54 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (84.6ms)
+Completed 200 OK in 185ms (Views: 146.9ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-11-20 11:42:32 -0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nxeJ4eskgT4w2H6clGozZD7L2M3kePOpxwXTKC40pTZevbYuiA7wT8nbJ8upELT6SYidkYTsZDux0NrMYGtdNw==", "user"=>{"email"=>"swatkins876@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "swatkins876@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Create (2.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "swatkins876@gmail.com"], ["encrypted_password", "$2a$11$91FVmMLScYQbTmd.NtiAN.LD4MOe/PkICseS1tu97xrlr0epFkSGq"], ["created_at", "2019-11-20 19:42:32.931866"], ["updated_at", "2019-11-20 19:42:32.931866"]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 289ms (ActiveRecord: 8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 11:42:32 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to AddUserIdToDocs (20191120194535)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (1.4ms)[0m  [1m[35mALTER TABLE "docs" ADD "user_id" integer[0m
+  ↳ db/migrate/20191120194535_add_user_id_to_docs.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191120194535"]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (20.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" ORDER BY "docs"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2019-11-20 11:53:27 -0800
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (10.5ms)
+Completed 200 OK in 716ms (Views: 696.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 11:53:36 -0800
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.4ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (81.8ms)
+Completed 200 OK in 255ms (Views: 195.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 11:53:39 -0800
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (43.3ms)
+  Rendered docs/new.html.haml within layouts/application (46.3ms)
+Completed 200 OK in 319ms (Views: 104.0ms | ActiveRecord: 3.4ms)
+
+
+Started POST "/docs" for 127.0.0.1 at 2019-11-20 11:53:50 -0800
+Processing by DocsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WOV8bcTCaZMijsddtJ9Yut+mvpfG4RpP1yCtVlKcLqTlvn/6wn2bQhJS5ua6wWI+UGpJmrPwknZSVurH0eb5bw==", "doc"=>{"title"=>"another", "content"=>"hello again"}, "commit"=>"Create Doc"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:17
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:19
+  [1m[36mDoc Create (2.1ms)[0m  [1m[32mINSERT INTO "docs" ("title", "content", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["title", "another"], ["content", "hello again"], ["created_at", "2019-11-20 19:53:50.068131"], ["updated_at", "2019-11-20 19:53:50.068131"], ["user_id", 1]]
+  ↳ app/controllers/docs_controller.rb:19
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:19
+Redirected to http://localhost:3000/docs/3
+Completed 302 Found in 21ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/docs/3" for 127.0.0.1 at 2019-11-20 11:53:50 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (4.6ms)
+Completed 200 OK in 77ms (Views: 73.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 11:53:54 -0800
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.4ms)[0m  [1m[34mSELECT "docs".* FROM "docs" ORDER BY created_at DESC[0m
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (13.0ms)
+Completed 200 OK in 74ms (Views: 70.8ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" ORDER BY "docs"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 12:12:58 -0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+SyntaxError (/home/learn/cabinet/app/controllers/docs_controller.rb:5: syntax error, unexpected tCONSTANT, expecting end
+...where(user_id: current_user)Doc.all.order("created_at DESC")
+...                            ^~~):
+  
+app/controllers/docs_controller.rb:5: syntax error, unexpected tCONSTANT, expecting end
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 12:14:05 -0800
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:5
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.4ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (41.5ms)
+Completed 200 OK in 579ms (Views: 535.5ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-20 12:15:25 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 12:15:25 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (2.7ms)
+Completed 200 OK in 68ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 12:27:09 -0800
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:5
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (1.6ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (27.9ms)
+Completed 200 OK in 297ms (Views: 232.9ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 12:27:50 -0800
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (6.2ms)
+Completed 200 OK in 77ms (Views: 75.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 12:40:12 -0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (102.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/normalize.css.scss to /home/learn/cabinet/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__650493855_91649430 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/global.css.scss to /home/learn/cabinet/app/assets/stylesheets/global.scss. (called from _app_views_layouts_application_html_erb__650493855_91649430 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/docs.css.scss to /home/learn/cabinet/app/assets/stylesheets/docs.scss. (called from _app_views_layouts_application_html_erb__650493855_91649430 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/welcome.css.scss to /home/learn/cabinet/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__650493855_91649430 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/normalize.css.scss to /home/learn/cabinet/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__650493855_91649430 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/global.css.scss to /home/learn/cabinet/app/assets/stylesheets/global.scss. (called from _app_views_layouts_application_html_erb__650493855_91649430 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/docs.css.scss to /home/learn/cabinet/app/assets/stylesheets/docs.scss. (called from _app_views_layouts_application_html_erb__650493855_91649430 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/welcome.css.scss to /home/learn/cabinet/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__650493855_91649430 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+Completed 200 OK in 1277ms (Views: 1241.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 12:42:37 -0800
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (186.1ms)
+  Rendered docs/new.html.haml within layouts/application (204.1ms)
+Completed 200 OK in 456ms (Views: 263.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/docs/3" for 127.0.0.1 at 2019-11-20 12:42:43 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 174ms (Views: 55.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 12:54:54 -0800
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (4.4ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (9.3ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/normalize.css.scss to /home/learn/cabinet/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__650493855__635219518 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/global.css.scss to /home/learn/cabinet/app/assets/stylesheets/global.scss. (called from _app_views_layouts_application_html_erb__650493855__635219518 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/docs.css.scss to /home/learn/cabinet/app/assets/stylesheets/docs.scss. (called from _app_views_layouts_application_html_erb__650493855__635219518 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/welcome.css.scss to /home/learn/cabinet/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__650493855__635219518 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/normalize.css.scss to /home/learn/cabinet/app/assets/stylesheets/normalize.scss. (called from _app_views_layouts_application_html_erb__650493855__635219518 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/global.css.scss to /home/learn/cabinet/app/assets/stylesheets/global.scss. (called from _app_views_layouts_application_html_erb__650493855__635219518 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/docs.css.scss to /home/learn/cabinet/app/assets/stylesheets/docs.scss. (called from _app_views_layouts_application_html_erb__650493855__635219518 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/learn/cabinet/app/assets/stylesheets/welcome.css.scss to /home/learn/cabinet/app/assets/stylesheets/welcome.scss. (called from _app_views_layouts_application_html_erb__650493855__635219518 at /home/learn/cabinet/app/views/layouts/application.html.erb:8)
+Completed 200 OK in 423ms (Views: 417.6ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 12:54:57 -0800
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (20.0ms)
+  Rendered docs/new.html.haml within layouts/application (30.1ms)
+Completed 200 OK in 94ms (Views: 84.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 12:57:41 -0800
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (80.9ms)
+  Rendered docs/new.html.haml within layouts/application (89.6ms)
+Completed 500 Internal Server Error in 151ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title>Cabinet</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+  
+app/views/layouts/application.html.haml:3
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 12:57:48 -0800
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (20.0ms)
+  Rendered docs/new.html.haml within layouts/application (28.4ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title>Cabinet</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+  
+app/views/layouts/application.html.haml:3
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 12:57:57 -0800
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (26.1ms)
+  Rendered docs/new.html.haml within layouts/application (31.5ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title>Cabinet</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+  
+app/views/layouts/application.html.haml:3
+Started GET "/" for 127.0.0.1 at 2019-11-20 12:59:14 -0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (8.5ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title>Cabinet</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+  
+app/views/layouts/application.html.haml:3
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 12:59:18 -0800
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:5
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (10.9ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title>Cabinet</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+  
+app/views/layouts/application.html.haml:3
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 13:05:17 -0800
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:5
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.3ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %title and nested within it.):
+    2: %html
+    3: %head
+    4:   %title FileCabinet | Your Life's Work!
+    5:     = <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    6:     = <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    7: <!DOCTYPE html>
+    8: <html>
+  
+app/views/layouts/application.html.haml:5
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 13:06:10 -0800
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:5
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %title and nested within it.):
+    2: %html
+    3: %head
+    4:   %title FileCabinet | Your Life's Work!
+    5:     = <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    6:     = <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    7:     = <%= csrf_meta_tags %>
+    8: <!DOCTYPE html>
+  
+app/views/layouts/application.html.haml:5
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 13:07:04 -0800
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:5
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.3ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %title and nested within it.):
+    2: %html
+    3: %head
+    4:   %title FileCabinet | Your Life's Work!
+    5:     = <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    6:     = <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    7:     = <%= csrf_meta_tags %>
+    8: 
+  
+app/views/layouts/application.html.haml:5
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 13:09:29 -0800
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:5
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.3ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (12.2ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %title and nested within it.):
+    2: %html
+    3: %head
+    4:   %title FileCabinet | Your Life's Work!
+    5:     = <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    6:     = <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    7:     = <%= csrf_meta_tags %>
+    8: %body
+  
+app/views/layouts/application.html.haml:5
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 13:11:37 -0800
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:5
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (9.3ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %title and nested within it.):
+    2: %html
+    3: %head
+    4:   %title FileCabinet | Your Life's Work!
+    5:     = <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    6:     = <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    7:     = <%= csrf_meta_tags %>
+    8: %body
+  
+app/views/layouts/application.html.haml:5
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 13:20:00 -0800
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:5
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %title and nested within it.):
+    2: %html
+    3: %head
+    4:   %title FileCabinet | Your Life's Work!
+    5:     = <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    6:     = <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    7:     = <%= csrf_meta_tags %>
+    8: %body
+  
+app/views/layouts/application.html.haml:5
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 13:20:55 -0800
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:5
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/home/learn/cabinet/app/views/layouts/application.html.haml:5: syntax error, unexpected '<'
+...:Haml::Helpers.html_escape((( <%= stylesheet_link_tag    'ap...
+...                              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+...e((( <%= javascript_include_tag 'application', 'data-turboli...
+...         ^~~~~~~~~~~~~~~~~~~~~~
+/home/learn/cabinet/app/views/layouts/application.html.haml:6: syntax error, unexpected '>'
+...-turbolinks-track': 'reload' %>
+...                              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:7: syntax error, unexpected '<'
+...:Haml::Helpers.html_escape((( <%= csrf_meta_tags %>
+...                              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:8: syntax error, unexpected backslash
+...r>\n<div class='header_inner'>\n".freeze);; 
+...                              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:11: syntax error, unexpected tCONSTANT, expecting ')'
+..._escape((( link_to "FileCabinet", root_path
+...                    ^~~~~~~~~~~
+/home/learn/cabinet/app/views/layouts/application.html.haml:12: syntax error, unexpected backslash, expecting ')'
+....to_s);; _hamlout.buffer << ("\n<nav>\n".freeze);; 
+...                              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:12: syntax error, unexpected backslash
+...; _hamlout.buffer << ("\n<nav>\n".freeze);; 
+...                              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:17: syntax error, unexpected tCONSTANT, expecting ')'
+....html_escape((( link_to "Create Doc", new_doc_path
+...                         ^~~~~~
+/home/learn/cabinet/app/views/layouts/application.html.haml:18: syntax error, unexpected backslash, expecting ')'
+....to_s);; _hamlout.buffer << ("\n".freeze);; _hamlout.buffer ...
+...                              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:18: syntax error, unexpected tCONSTANT, expecting ')'
+...rs.html_escape((( link_to "Sign Out", destroy_user_session_p...
+...                           ^~~~
+/home/learn/cabinet/app/views/layouts/application.html.haml:19: syntax error, unexpected backslash, expecting ')'
+....to_s);; _hamlout.buffer << ("\n".freeze);; 
+...                              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:21: syntax error, unexpected tCONSTANT, expecting ')'
+...ers.html_escape((( link_to "Log In", new_user_session_path
+...                            ^~~
+/home/learn/cabinet/app/views/layouts/application.html.haml:22: syntax error, unexpected backslash, expecting ')'
+....to_s);; _hamlout.buffer << ("\n".freeze);; end;; _hamlout.b...
+...                              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:22: unknown regexp options - dv
+/home/learn/cabinet/app/views/layouts/application.html.haml:22: syntax error, unexpected backslash
+...out.buffer << ("</nav>\n</div>\n</header>\n</body>\n<p class...
+...                              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:22: unknown regexp options - bdy
+/home/learn/cabinet/app/views/layouts/application.html.haml:22: syntax error, unexpected backslash
+...v>\n</div>\n</header>\n</body>\n<p class='notice'>".freeze);...
+...                              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:22: syntax error, unexpected class, expecting do or '{' or '('
+...>\n</header>\n</body>\n<p class='notice'>".freeze);; 
+...                          ^~~~~
+/home/learn/cabinet/app/views/layouts/application.html.haml:25: unknown regexp option - p
+/home/learn/cabinet/app/views/layouts/application.html.haml:25: unmatched close parenthesis: /p>\n<p class='alert'>".freeze);; _hamlout.buffer << ((::Haml::Helpers.html_escape(((alert
+)).to_s);).to_s);; _hamlout.buffer << ("</
+/home/learn/cabinet/app/views/layouts/application.html.haml:25: syntax error, unexpected backslash
+...s);; _hamlout.buffer << ("</p>\n".freeze);; _hamlout.buffer ...
+...                              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:27: syntax error, unexpected backslash, expecting ')'
+....to_s);; _hamlout.buffer << ("\n".freeze);::Haml::Util.html_...
+...                              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:30: unterminated string meets end of file
+          end
+              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:30: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/layouts/application.html.haml:5: syntax error, unexpected '<'
+app/views/layouts/application.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.haml:6: syntax error, unexpected '>'
+app/views/layouts/application.html.haml:7: syntax error, unexpected '<'
+app/views/layouts/application.html.haml:8: syntax error, unexpected backslash
+app/views/layouts/application.html.haml:11: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/layouts/application.html.haml:12: syntax error, unexpected backslash, expecting ')'
+app/views/layouts/application.html.haml:12: syntax error, unexpected backslash
+app/views/layouts/application.html.haml:17: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/layouts/application.html.haml:18: syntax error, unexpected backslash, expecting ')'
+app/views/layouts/application.html.haml:18: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/layouts/application.html.haml:19: syntax error, unexpected backslash, expecting ')'
+app/views/layouts/application.html.haml:21: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/layouts/application.html.haml:22: syntax error, unexpected backslash, expecting ')'
+app/views/layouts/application.html.haml:22: unknown regexp options - dv
+app/views/layouts/application.html.haml:22: syntax error, unexpected backslash
+app/views/layouts/application.html.haml:22: unknown regexp options - bdy
+app/views/layouts/application.html.haml:22: syntax error, unexpected backslash
+app/views/layouts/application.html.haml:22: syntax error, unexpected class, expecting do or '{' or '('
+app/views/layouts/application.html.haml:25: unknown regexp option - p
+app/views/layouts/application.html.haml:25: unmatched close parenthesis: /p>\n<p class='alert'>".freeze);; _hamlout.buffer << ((::Haml::Helpers.html_escape(((alert
+app/views/layouts/application.html.haml:25: syntax error, unexpected backslash
+app/views/layouts/application.html.haml:27: syntax error, unexpected backslash, expecting ')'
+app/views/layouts/application.html.haml:30: unterminated string meets end of file
+app/views/layouts/application.html.haml:30: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 13:23:03 -0800
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:5
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/home/learn/cabinet/app/views/layouts/application.html.haml:6: syntax error, unexpected '<'
+...:Haml::Helpers.html_escape((( <%= javascript_include_tag 'ap...
+...                              ^
+/home/learn/cabinet/app/views/layouts/application.html.haml:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ml_escape((( <%= csrf_meta_tags %>
+...                 ^~~~~~~~~~~~~~
+/home/learn/cabinet/app/views/layouts/application.html.haml:27: syntax error, unexpected ensure, expecting ')'
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/home/learn/cabinet/app/views/layouts/application.html.haml:27: syntax error, unexpected end, expecting ')'
+...uffer.upper if @haml_buffer;end;
+...                            ^~~
+/home/learn/cabinet/app/views/layouts/application.html.haml:30: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/layouts/application.html.haml:6: syntax error, unexpected '<'
+app/views/layouts/application.html.haml:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.haml:27: syntax error, unexpected ensure, expecting ')'
+app/views/layouts/application.html.haml:27: syntax error, unexpected end, expecting ')'
+app/views/layouts/application.html.haml:30: syntax error, unexpected end, expecting ')'
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 13:24:23 -0800
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:5
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (10.1ms)
+Completed 200 OK in 74ms (Views: 68.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 13:24:32 -0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (8.1ms)
+Completed 200 OK in 77ms (Views: 74.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 13:24:37 -0800
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (55.9ms)
+Completed 200 OK in 118ms (Views: 116.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 13:24:42 -0800
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (24.1ms)
+  Rendered docs/new.html.haml within layouts/application (32.7ms)
+Completed 200 OK in 98ms (Views: 94.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/docs" for 127.0.0.1 at 2019-11-20 13:24:55 -0800
+Processing by DocsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6LEnHGeDHy6FP17ECjD+Hj/FXmFF22TCY8sIlmeDlPlV6iSLYTzt/7Xjf38EbsSasAmpbDDK7PvmvU8H5PlDMg==", "doc"=>{"title"=>"yo ho", "content"=>"i like pirates"}, "commit"=>"Create Doc"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:17
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/docs_controller.rb:19
+  [1m[36mDoc Create (3.2ms)[0m  [1m[32mINSERT INTO "docs" ("title", "content", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["title", "yo ho"], ["content", "i like pirates"], ["created_at", "2019-11-20 21:24:55.283884"], ["updated_at", "2019-11-20 21:24:55.283884"], ["user_id", 1]]
+  ↳ app/controllers/docs_controller.rb:19
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/docs_controller.rb:19
+Redirected to http://localhost:3000/docs/4
+Completed 302 Found in 21ms (ActiveRecord: 9.1ms)
+
+
+Started GET "/docs/4" for 127.0.0.1 at 2019-11-20 13:24:55 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoc Load (0.3ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (3.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:16
+Completed 200 OK in 74ms (Views: 71.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 13:24:59 -0800
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:5
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (7.6ms)
+Completed 200 OK in 71ms (Views: 66.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs" for 127.0.0.1 at 2019-11-20 13:25:40 -0800
+Processing by DocsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:5
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 74ms (Views: 71.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-11-20 13:26:17 -0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"oDTic5EYv4gss+csDR9lgUU76xQUHQx/cTIqD77X9fFhnt288jLO+dWwvnswZeIfMniuSHSJm+0H5yPr8IgN8A=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 24ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 13:26:17 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 76ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 13:30:02 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 13:30:03 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 13:31:41 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (6.8ms)
+Completed 200 OK in 68ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 13:31:41 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 13:36:22 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (6.9ms)
+Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 13:36:23 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 13:42:24 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (7.6ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 13:42:24 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 13:44:03 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (6.0ms)
+Completed 200 OK in 70ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 13:44:03 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 13:44:03 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 13:44:37 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 13:44:37 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 13:44:37 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 13:50:12 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (11.0ms)
+Completed 200 OK in 131ms (Views: 130.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 13:50:13 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 13:50:13 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 13:50:37 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (9.7ms)
+Completed 200 OK in 75ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 13:50:38 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 13:50:38 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 13:56:21 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (12.8ms)
+Completed 200 OK in 81ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 13:56:21 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 13:56:21 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:05:56 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (10.5ms)
+Completed 200 OK in 83ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 14:05:56 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 14:05:56 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:07:13 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (14.3ms)
+Completed 200 OK in 75ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 14:07:13 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 14:07:13 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-20 14:07:16 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (99.6ms)
+Completed 200 OK in 225ms (Views: 180.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-11-20 14:07:19 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E5Zvx+4aIvDQE4I+YFJqu7K2F1ClzUvrK8wwUhqZYfGxJJHkxPurDTvz4URCECgnwEnPSn3erz3x4JVPPDm/zQ==", "user"=>{"email"=>"swatkins876@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "swatkins876@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 318ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:07:19 -0800
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (4.7ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (11.1ms)
+Completed 200 OK in 83ms (Views: 76.7ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:08:22 -0800
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:1
+  Rendered docs/index.html.haml within layouts/application (14.8ms)
+Completed 200 OK in 72ms (Views: 70.2ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-11-20 14:08:25 -0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"u333mUAGIrs4lLJDG1oXcCdlNJIdgWWQ0WNIKHc1HVaBc/RTp7DLQmBTU/nNluCkW9uqB7KSo2SxJ3+8SKMLYA=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:08:25 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (16.4ms)
+Completed 200 OK in 79ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 14:08:25 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 14:08:25 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:09:41 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (12.1ms)
+Completed 200 OK in 84ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 14:09:41 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 14:09:41 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:16:28 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (10.2ms)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 14:16:28 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 14:16:28 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:19:27 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (11.2ms)
+Completed 200 OK in 82ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 14:19:27 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 14:19:27 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:19:58 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (16.2ms)
+Completed 200 OK in 104ms (Views: 102.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 14:19:59 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 14:19:59 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-20 14:20:42 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (39.2ms)
+Completed 200 OK in 112ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-11-20 14:20:43 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"06PEowkLQQMYSr1cxyqt+Gy5NcvLg2WAhzHPfwIzEZWhVjY1sXPeHnmhNdFayCHOb1vKBTkKwE95VsFPGIDgsQ==", "user"=>{"email"=>"swatkins876@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "swatkins876@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 214ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:20:43 -0800
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  Rendered docs/index.html.haml within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %a and nested within it.):
+    3:     - unless @docs.blank?
+    4:       - @docs.each do |doc|
+    5:       %a { href: (url_for [doc]) }
+    6:         .doc 
+    7:           %p.title= doc.title
+    8:           %p.date= time_ago_in_words(doc.created_at)
+    9:           %p.content= truncate(doc.content, length:50)
+  
+app/views/docs/index.html.haml:6
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:22:25 -0800
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  Rendered docs/index.html.haml within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %a and nested within it.):
+    3:     - unless @docs.blank?
+    4:       - @docs.each do |doc|
+    5:       %a { href: (url_for [doc]) }
+    6:         .doc 
+    7:           %p.title= doc.title
+    8:           %p.date= time_ago_in_words(doc.created_at)
+    9:           %p.content= truncate(doc.content, length:50)
+  
+app/views/docs/index.html.haml:6
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:22:46 -0800
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  Rendered docs/index.html.haml within layouts/application (7.2ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+    4:       - @docs.each do |doc|
+    5:       %a { href: (url_for [doc]) }
+    6:       .doc 
+    7:           %p.title= doc.title
+    8:           %p.date= time_ago_in_words(doc.created_at)
+    9:           %p.content= truncate(doc.content, length:50)
+   10:     - else
+  
+app/views/docs/index.html.haml:7
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:23:08 -0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  Rendered docs/index.html.haml within layouts/application (8.8ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/learn/cabinet/app/views/docs/index.html.haml:10: else without rescue is useless
+...</p>\n</div>\n".freeze);;  else
+...                           ^~~~
+/home/learn/cabinet/app/views/docs/index.html.haml:14: syntax error, unexpected ensure, expecting end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/home/learn/cabinet/app/views/docs/index.html.haml:17: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/docs/index.html.haml:10: else without rescue is useless
+app/views/docs/index.html.haml:14: syntax error, unexpected ensure, expecting end
+app/views/docs/index.html.haml:17: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:23:39 -0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  Rendered docs/index.html.haml within layouts/application (70.4ms)
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/learn/cabinet/app/views/docs/index.html.haml:10: else without rescue is useless
+...</p>\n</div>\n".freeze);;  else
+...                           ^~~~
+/home/learn/cabinet/app/views/docs/index.html.haml:14: syntax error, unexpected ensure, expecting end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                         ^~~~~~
+/home/learn/cabinet/app/views/docs/index.html.haml:17: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/docs/index.html.haml:10: else without rescue is useless
+app/views/docs/index.html.haml:14: syntax error, unexpected ensure, expecting end
+app/views/docs/index.html.haml:17: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:24:43 -0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  Rendered docs/index.html.haml within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %a and nested within it.):
+    3:     - unless @docs.blank?
+    4:       - @docs.each do |doc|
+    5:         %a { href: (url_for [doc]) }
+    6:           .doc 
+    7:             %p.title= doc.title
+    8:             %p.date= time_ago_in_words(doc.created_at)
+    9:             %p.content= truncate(doc.content, length:50)
+  
+app/views/docs/index.html.haml:6
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:27:50 -0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  Rendered docs/index.html.haml within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %a and nested within it.):
+    3:     - unless @docs.blank?
+    4:       - @docs.each do |doc|
+    5:         %a { href: (url_for [doc]) }
+    6:           .doc 
+    7:             %p.title= doc.title
+    8:             %p.date= time_ago_in_words(doc.created_at)
+    9:             %p.content= truncate(doc.content, length:50)
+  
+app/views/docs/index.html.haml:6
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:28:38 -0800
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (2.3ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:3
+  Rendered docs/index.html.haml within layouts/application (13.7ms)
+Completed 200 OK in 88ms (Views: 83.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/docs/3" for 127.0.0.1 at 2019-11-20 14:32:03 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (7.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:16
+Completed 200 OK in 74ms (Views: 71.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/docs/3" for 127.0.0.1 at 2019-11-20 14:32:10 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (6.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:16
+Completed 200 OK in 80ms (Views: 77.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs/3" for 127.0.0.1 at 2019-11-20 14:33:30 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.3ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (Illegal element: classes and ids must have values.):
+    3:     %h1.title= @doc.title
+    4:     %p= @doc.content
+    5: 
+    6:     .buttons.
+    7:       = link_to "Fix Doc", edit_doc_path(@doc)
+    8:       = link_to "Trash Doc", doc_path(@doc), method: :delete, data: { confirm: "Are You Sure?"}
+  
+app/views/docs/show.html.haml:6
+Started GET "/docs/3" for 127.0.0.1 at 2019-11-20 14:34:04 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (4.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:16
+Completed 200 OK in 83ms (Views: 81.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs/3" for 127.0.0.1 at 2019-11-20 14:35:15 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (8.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:16
+Completed 200 OK in 80ms (Views: 78.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/docs/3" for 127.0.0.1 at 2019-11-20 14:36:19 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (5.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:16
+Completed 200 OK in 78ms (Views: 75.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 14:37:21 -0800
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (29.1ms)
+  Rendered docs/new.html.haml within layouts/application (32.6ms)
+Completed 200 OK in 97ms (Views: 94.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 14:38:13 -0800
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (68.2ms)
+  Rendered docs/new.html.haml within layouts/application (81.3ms)
+Completed 200 OK in 154ms (Views: 147.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 14:38:50 -0800
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (24.9ms)
+  Rendered docs/new.html.haml within layouts/application (31.8ms)
+Completed 200 OK in 106ms (Views: 97.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs/3/edit" for 127.0.0.1 at 2019-11-20 14:39:57 -0800
+Processing by DocsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/_form.html.haml (25.7ms)
+  Rendered docs/edit.html.haml within layouts/application (35.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:16
+Completed 200 OK in 107ms (Views: 105.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs/3/edit" for 127.0.0.1 at 2019-11-20 14:40:48 -0800
+Processing by DocsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/_form.html.haml (29.9ms)
+  Rendered docs/edit.html.haml within layouts/application (33.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:16
+Completed 200 OK in 98ms (Views: 95.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs/3/edit" for 127.0.0.1 at 2019-11-20 14:46:16 -0800
+Processing by DocsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/_form.html.haml (25.1ms)
+  Rendered docs/edit.html.haml within layouts/application (35.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:16
+Completed 200 OK in 105ms (Views: 101.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/docs/3" for 127.0.0.1 at 2019-11-20 14:46:25 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.3ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (9.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:16
+Completed 200 OK in 100ms (Views: 98.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 14:46:30 -0800
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (22.8ms)
+  Rendered docs/new.html.haml within layouts/application (30.8ms)
+Completed 200 OK in 100ms (Views: 95.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 14:48:42 -0800
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:13
+  Rendering docs/new.html.haml within layouts/application
+  Rendered docs/_form.html.haml (24.5ms)
+  Rendered docs/new.html.haml within layouts/application (36.4ms)
+Completed 200 OK in 101ms (Views: 96.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-11-20 14:49:15 -0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wN4Ub20SKlZQyhoS7o3SyNLJhIwVkTqorpTYL/pKTmnf+f6c3NxvEdJs4iHC2nxdB+UMFBqxr4mW40ecQ1yR4Q=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:49:15 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (15.0ms)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 14:49:16 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 14:49:16 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/sign_up" for 127.0.0.1 at 2019-11-20 14:49:27 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 100ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at 2019-11-20 14:50:34 -0800
+Processing by DocsController#new as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `docs' for nil:NilClass):
+  
+app/controllers/docs_controller.rb:13:in `new'
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:51:38 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (11.2ms)
+Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 14:51:38 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 14:51:39 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/sign_in" for 127.0.0.1 at 2019-11-20 14:52:19 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 158ms (Views: 155.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2019-11-20 14:52:23 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BHR/xUnXWMZkVLbriou6lsGZtOil7bnjFKX6Bh/I3Ls/QlD2OcCcfeXKKGiKRZ/8uyC1VK6Fv1zszBYsKUl6Mg==", "user"=>{"email"=>"swatkins876@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "swatkins876@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 206ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:52:23 -0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by DocsController#index as HTML
+  Rendering docs/index.html.haml within layouts/application
+  [1m[36mDoc Load (0.2ms)[0m  [1m[34mSELECT "docs".* FROM "docs" WHERE "docs"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/views/docs/index.html.haml:3
+  Rendered docs/index.html.haml within layouts/application (19.0ms)
+Completed 200 OK in 90ms (Views: 89.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs/3" for 127.0.0.1 at 2019-11-20 14:52:25 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (8.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:16
+Completed 200 OK in 83ms (Views: 81.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs/3/edit" for 127.0.0.1 at 2019-11-20 14:52:29 -0800
+Processing by DocsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/edit.html.haml within layouts/application
+  Rendered docs/_form.html.haml (24.5ms)
+  Rendered docs/edit.html.haml within layouts/application (29.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:16
+Completed 200 OK in 103ms (Views: 100.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs/3" for 127.0.0.1 at 2019-11-20 14:52:32 -0800
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.1ms)[0m  [1m[34mSELECT  "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/docs_controller.rb:44
+  Rendering docs/show.html.haml within layouts/application
+  Rendered docs/show.html.haml within layouts/application (8.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.haml:16
+Completed 200 OK in 78ms (Views: 74.8ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2019-11-20 14:52:39 -0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xuDexsyYIsF7BBsIzARhLOfNo33QuxEqMaofpt4mv/QoHo1x6gJ4Tiawgf/X+ZkLiXSrlWxt2aLBRCxpwuPpCQ=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/learn/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-11-20 14:52:39 -0800
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 81ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/welcome_banner_image.jpg" for 127.0.0.1 at 2019-11-20 14:52:39 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/welcome_banner_image.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/images/callout_background.jpg" for 127.0.0.1 at 2019-11-20 14:52:39 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/callout_background.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
